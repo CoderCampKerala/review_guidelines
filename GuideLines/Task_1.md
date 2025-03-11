@@ -5,7 +5,7 @@
 - Assess their **basic Git knowledge**:
   - Do they understand repositories, feature branch, commits, push and pull request?
 - Request **project explanation**:
-  - What have they built?
+  - What have they built ?
   - What challenges did they face?
   - How did they structure their code?
 
