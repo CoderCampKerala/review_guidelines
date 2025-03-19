@@ -62,26 +62,27 @@ document.getElementById("myButton").innerText = "Clicked!";
     if they are not aware, show them the browser console
     - If they haven’t added either of delete, add or mark as complete ask them to add it on live
     - check if they understand the fundamental selector types
-    - **element selector** (also known as a **type selector**) — this is a selector that directly matches an HTML element name. To target all paragraphs in the document, you would use the selector `p`.
+
+       1)  **element selector** (also known as a **type selector**) — this is a selector that directly matches an HTML element name. To target all paragraphs in the document, you would use the selector `p`.
     
-    - To select a subset of the elements without changing the others, you can add a `class` to your HTML element and target that class in your CSS. In your CSS, you can target the class of `special` by creating a selector that starts with a period.
+       2) To select a subset of the elements without changing the others, you can add a `class` to your HTML element and target that class in your CSS. In your CSS, you can target the class of `special` by creating a selector that starts with a period.
     
-     `.special {
-      color: orange;
-      font-weight: bold;
-    }`
+         `.special {
+        color: orange;
+        font-weight: bold;
+        }`
     
-    - ability to style things based on their state. This has different states depending on whether it is unvisited, visited, being hovered over, focused via the keyboard, or in the process of being clicked (activated).
+    3) ability to style things based on their state. This has different states depending on whether it is unvisited, visited, being hovered over, focused via the keyboard, or in the process of being clicked (activated).
     
-    `button:hover{
+        `button:hover{
         background: #bfc69c;
-    }`
-    - symbol (#) is used to select elements by their ID attribute.
+        }`
+    4) symbol (#) is used to select elements by their ID attribute.
     - Use `defer` for external scripts when possible
     <script defer src="script.js"></script>
     
     drawback of placing Scritpt tag at the end - Delays script downloading until HTML parsing reaches that point.
-    Using defer attribute - 
+    pros of using defer attribute - 
         can place script in <head> or elsewhere
         downloads script in parallel
 
@@ -101,14 +102,8 @@ document.getElementById("myButton").innerText = "Clicked!";
         - Unlike session storage, local storage keeps data **even after closing the browser**.
         - It works like a **mini database** but is limited in size.
 
-### **4. Encouraging Implementation**
 
-- Ask them how they could **use localStorage in their To-Do app**:
-    - **How can you store tasks so they remain after a refresh?**
-    - **How can you retrieve and display saved tasks when the page loads?**
-    - Encourage them to update their project using `localStorage.setItem` and `localStorage.getItem`.
-
-### **5. Wrap-Up & Next Steps**
+### **4. Wrap-Up & Next Steps**
 
 - Give feedback on their work:
     - What they did well.
