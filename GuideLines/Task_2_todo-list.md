@@ -111,3 +111,8 @@ document.getElementById("myButton").innerText = "Clicked!";
     - Areas they can improve.
 - Assign a **mini challenge**: 
     - Implement local storage to save and retrieve their To-Do list. (if they haven't implemented local storage)
+- if they are not thorough in any of the topics suggest these videos: 
+ DOM - https://scrimba.com/learn-javascript-c0v/~0g eventListener - https://scrimba.com/learn-javascript-c0v/~03m
+Arrays & callbacks - https://learnjavascript.online/app.html?id=1500     
+localstorage - https://scrimba.com/learn-javascript-c0v/~04h
+ 
