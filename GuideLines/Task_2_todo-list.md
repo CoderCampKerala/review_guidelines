@@ -61,6 +61,7 @@ document.getElementById("myButton").innerText = "Clicked!";
     - **Have you used browser console for debugging ?**
     if they are not aware, show them the browser console
     - If they haven’t added either of delete, add or mark as complete ask them to add it on live
+    (make them do a small task in live. may be ask them to add a delete all or clear all button)
     - check if they understand the fundamental selector types
 
        1)  **element selector** (also known as a **type selector**) — this is a selector that directly matches an HTML element name. To target all paragraphs in the document, you would use the selector `p`.
